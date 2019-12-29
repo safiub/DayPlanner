@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title> Day Planner </title>
+  <link type="text/css" rel="stylesheet" href="dayplanner.css">
+  <script src="dayplanner.js" type="text/javascript"></script>
+</head>
+<body onload="time()">
+  <div id="box">
+  <div class="boxes">
+  <div id="time"></div>
+  <div id="plans"></div>
+</div>
+<div class="boxes">
+<div id="button">
+  <button onclick="viewplans(10)"> Show Plans(PM) </button>
+  <button onclick="viewplans(11)"> Show Plans(AM) </button>
+  <button onclick="setplans()"> Add Plans </button>
+  <button onclick="clearplans()"> Clear Plans </button>
+  <button onclick="save()">  Save </button>
+  <button onclick="load()"> Load </button>
+</div>
+<div id="upcoming"></div>
+</div>
+</div>
+</body>
+
+</html>
